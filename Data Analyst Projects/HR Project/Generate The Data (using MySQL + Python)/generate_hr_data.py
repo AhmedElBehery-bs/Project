@@ -12,7 +12,7 @@ EGYPTIAN_DOMAINS = [
 def main():
     # Database
     cnx = mysql.connector.connect(
-        host='localhost', user='root', password='1111', database='hr_analytics'
+        host='localhost', user='root', password='1111', database='hr_analytics_test'
     )
     cursor = cnx.cursor()
 

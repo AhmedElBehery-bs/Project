@@ -217,6 +217,7 @@ VALUES
 
 -- ==================== 5. DATE DIMENSION 2020-2030 ====================
 
+-- if it didn't work... run it on a sepe
 DROP PROCEDURE IF EXISTS PopulateDate;
 DELIMITER $$
 CREATE PROCEDURE PopulateDate()
@@ -255,6 +256,10 @@ SELECT COUNT(*) AS Snapshots FROM FACT_EmployeeSnapshot;
 --										~•~ TIME TO USE PYTHON ~•~ 
 
 
--- NOW WE ARE READY TO GENERATE THE DATA FOR THE EMPLOYEES USING PYTHON
+-- NOW WE ARE READY TO GENERATE THE EMPLOYEES DATA (DIM_Employee Table) USING PYTHON
 	-- TO DO THIS RUN "generate_hr_data.py" File provided on this folder
 -- ====================================================================================================
+
+
+
+
