@@ -1,4 +1,4 @@
-### Vesper Hotel Bookings Dashboard – Power BI
+## Vesper Hotel Bookings Dashboard – Power BI
 
 !\[Vesper Hotel Logo](assets/logo/VESPER-logo.png)
 
@@ -6,7 +6,7 @@ A stylish and interactive Power BI dashboard analyzing hotel reservation data. I
 
 
 
-#### Project Overview
+### Project Overview
 
 This dashboard provides hotel managers with actionable metrics, including:
 
@@ -15,9 +15,10 @@ This dashboard provides hotel managers with actionable metrics, including:
 * Loyalty program effectiveness and most-used booking channels
 * Peak stay days and seasonal trends
 
-#### 
 
-**Note on originality**  
+
+### **Note on originality** 
+
 This project is inspired by a popular hotel bookings Power BI tutorial by Chandoo on YouTube. I built it as a hands-on learning exercise and then **extended and personalized it**:
 
 * Added a **Multiple report page** with new visualizations (Revenue by Length of Stay, Loyal vs. Non-Loyal Bookings, Most Used Booking Channels, Status of Hotel Reservations, etc.)
@@ -33,7 +34,7 @@ The sample dataset is the one used in the original tutorial.
 
 
 
-#### Screenshots
+### Screenshots
 
 ###### Page 1 – Executive Overview
 
@@ -43,9 +44,9 @@ The sample dataset is the one used in the original tutorial.
 
 !\[Page 2 - Detailed Insights](screenshots/page-2-detailed-insights.png)
 
-#### 
 
-#### Design Decisions: Canvas Size \& Layout
+
+### Design Decisions: Canvas Size \& Layout
 
 This dashboard uses a custom canvas size of **1080 × 1920 pixels** (vertical/full-HD mobile orientation) instead of the standard 16:9 landscape format.
 
@@ -65,7 +66,7 @@ This deliberate design decision (common in real-world BI projects targeting exec
 
 
 
-#### How to View the Dashboard
+### How to View the Dashboard
 
 1. Download and install **Power BI Desktop** (free) from Microsoft:  
    https://powerbi.microsoft.com/desktop/
@@ -78,7 +79,7 @@ This deliberate design decision (common in real-world BI projects targeting exec
 
 
 
-#### Files Included
+### Files Included
 
 * `Hotel Project.pbix` – Main dashboard file
 * `data/reservations.xlsx` – Sample dataset
@@ -86,7 +87,7 @@ This deliberate design decision (common in real-world BI projects targeting exec
 
 ## 
 
-#### Built With
+### Built With
 
 * Power BI Desktop
 * DAX for custom measures
