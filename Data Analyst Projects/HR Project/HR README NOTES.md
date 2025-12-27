@@ -1,0 +1,1 @@
+* \[add] turnover rate was so high (19.2%) when we first created the data, I had to adjust it (make it lower) using a code I created on \\Generate The Data (using MySQL + Python)\\FIX\\Reset TermantionDate Column - To fix The Turnover Rate being high because of the Termantion count is high.sql

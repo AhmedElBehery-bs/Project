@@ -12,7 +12,7 @@ EGYPTIAN_DOMAINS = [
 def main():
     # Database
     cnx = mysql.connector.connect(
-        host='localhost', user='root', password='1111', database='hr_analytics_test'
+        host='localhost', user='root', password='1111', database='hr_analytics'
     )
     cursor = cnx.cursor()
 
@@ -99,7 +99,7 @@ def main():
                 random.randint(1, 4), random.randint(0, 5), random.randint(0, 3), emp_id
             ))
 
-            # Move to next month (cleanly)
+            # Then we Move to next month
             if current.month == 12:
                 current = current.replace(year=current.year + 1, month=1)
             else:
@@ -190,7 +190,7 @@ class _EgyptianNames:
     
     def _last_names(self):
         return [
-        # Common Muslim & Pan-Egyptian surnames
+        # Common Muslim surnames
         "Abdelaziz", "Abdelrahman", "Abdelsalam", "Abdelhakim", "Abdelfattah", "Abdelnasser",
         "Abdelkader", "Abdelsayed", "Abdelmeguid", "Abdelghani", "Abdelwahab", "Abdelhalim",
         "Abdelmonem", "Abdellatif", "Abdelnabi", "Abdelkareem", "Abdelhamid", "Abdelhameed",
