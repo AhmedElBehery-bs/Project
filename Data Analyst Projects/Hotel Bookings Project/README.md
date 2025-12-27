@@ -1,6 +1,6 @@
 ## Vesper Hotel Bookings Dashboard – Power BI
 
-!\[Vesper Hotel Logo](assets/logo/VESPER-logo.png)
+![Vesper Hotel Logo](assets/logo/VESPER-logo.png)
 
 A stylish and interactive Power BI dashboard analyzing hotel reservation data. It delivers clear insights into revenue, occupancy, guest behavior, booking channels, and stay patterns.
 
@@ -36,13 +36,11 @@ The sample dataset is the one used in the original tutorial.
 
 ### Screenshots
 
-###### Page 1 – Executive Overview
+#### Page 1 – Executive Overview
+![Page 1 - Executive Overview](screenshots/page-1-executive-overview.png)
 
-!\[Page 1 - Executive Overview](screenshots/page-1-executive-overview.png)
-
-###### Page 2 – Revenue \& Guest Insights
-
-!\[Page 2 - Detailed Insights](screenshots/page-2-detailed-insights.png)
+#### Page 2 – Detailed Insights
+![Page 2 - Detailed Insights](screenshots/page-2-detailed-insights.png)
 
 
 
