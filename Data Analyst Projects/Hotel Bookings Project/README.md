@@ -17,7 +17,7 @@ This dashboard provides hotel managers with actionable metrics, including:
 
 
 
-### **Note on originality** 
+**Note on originality** 
 
 This project is inspired by a popular hotel bookings Power BI tutorial by Chandoo on YouTube. I built it as a hands-on learning exercise and then **extended and personalized it**:
 
