@@ -1,6 +1,6 @@
 # VEX Vehicle Insurance Dashboard – Power BI
 
-!\[VEX Logo](assets/logo/VEX-logo.png)
+![VEX Logo](assets/logo/VEX-logo.png)
 
 A modern, interactive Power BI dashboard analyzing vehicle insurance data. It provides clear insights into policy volumes, premiums, claims, loss ratios, customer demographics, and vehicle usage patterns.
 
@@ -37,7 +37,7 @@ The dataset remains a public tutorial sample containing simulated policy and cla
 
 ### Page 1 – Executive Overview
 
-!\[Page 1 - Executive Overview](screenshots/page-1.png)
+![Page 1 - Executive Overview](screenshot/page-1.png)
 
 
 
