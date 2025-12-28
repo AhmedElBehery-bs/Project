@@ -37,7 +37,7 @@ The dataset remains a public tutorial sample containing simulated policy and cla
 
 ### Page 1 – Executive Overview
 
-![Page 1 - Executive Overview](Screenshots/page-1.png)
+![Page 1 - Executive Overview](Screenshot/page-1.png)
 
 
 
