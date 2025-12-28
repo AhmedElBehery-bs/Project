@@ -37,7 +37,7 @@ The dataset remains a public tutorial sample containing simulated policy and cla
 
 ### Page 1 – Executive Overview
 
-!\[Page 1 - Executive Overview](screenshots/page-1-executive-overview.png)
+!\[Page 1 - Executive Overview](screenshots/page-1.png)
 
 
 
@@ -47,7 +47,7 @@ The dataset remains a public tutorial sample containing simulated policy and cla
    https://powerbi.microsoft.com/desktop/
 2. Open `VEX Insurance Dashboard.pbix`
 3. Explore the report – all visuals are interactive with slicers and filters
-4. 
+
 
 ## Files Included
 
