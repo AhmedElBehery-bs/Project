@@ -25,8 +25,8 @@ To elevate the analysis beyond the raw dataset, I **significantly extended and e
   - First: Bulk matching with official **IMDb static datasets** (offline, fast, reproducible)
   - Second: **OMDb API** calls to fill remaining gaps (especially for TV shows and non-English titles)
 - Implemented safe, resumable processing with progress tracking and rate-limit handling
-- Preserved all original data — only truly missing values were updated
-- Removed 6 duplicate rows that caused relationship issues in Power BI (since Power BI wasn't able to detect the duplicates using power query)
+- **Preserved all original data** — only truly missing values were updated
+- **Removed 6 duplicate rows** that caused relationship issues with power bi (since Power BI wasn't able to detect the duplicates using power query)
 - Generated (using python) a **synthetic viewer dataset (~500K rows)** simulating real user watching behavior (device type, completion status, watch duration, etc.)
 
 These enhancements enabled deeper, more meaningful analysis — particularly on Page 2 (Viewer Insights).
