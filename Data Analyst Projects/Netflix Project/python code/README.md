@@ -8,7 +8,7 @@ The result is a significantly enriched dataset powering a **Power BI dashboard**
 
 ---
 
-## 📊 Problem Statement
+## Problem Statement
 
 The original dataset has critical missing values:
 - **Director**: 2,547 missing  
@@ -19,17 +19,17 @@ These gaps prevent meaningful analysis of content quality and creative influence
 
 ---
 
-## 🔄 Solution Strategy: Hybrid Enrichment
+## Solution Strategy: Hybrid Enrichment
 
 To maximize coverage while balancing speed and reliability, I used a **two-phase approach**:
 
-### ✅ Phase 1: IMDb Static Datasets (Bulk Fill)
+### Phase 1: IMDb Static Datasets (Bulk Fill)
 - Used official IMDb TSV files from [datasets.imdbws.com](https://datasets.imdbws.com/)
 - Filled **~2,100 ratings** and **~1,000 directors** in minutes
 - **Advantages**: offline, no rate limits, reproducible
 - **Limitation**: many Netflix-original or non-English titles **not found** in public IMDb files
 
-### 🌐 Phase 2: OMDb API (Gap Filling)
+### Phase 2: OMDb API (Gap Filling)
 - For titles **still missing** after Phase 1, queried `http://www.omdbapi.com/`
 - Added **additional ~500–800 matches** (especially TV shows and recent titles)
 - Used **title + year** for accurate lookup
@@ -39,22 +39,22 @@ To maximize coverage while balancing speed and reliability, I used a **two-phase
 
 ---
 
-## 🛠️ Key Achievements
+## Key Achievements
 
-- ✅ **Added the `imdb_rating` column** — it didn’t exist in the original dataset and was created to store IMDb scores.  
-- ✅ **Filled missing `director` and `imdb_rating` using a two-step enrichment process**:  
+- **Added the `imdb_rating` column** — it didn’t exist in the original dataset and was created to store IMDb scores.  
+- **Filled missing `director` and `imdb_rating` using a two-step enrichment process**:  
   - **First**, used **IMDb’s official static datasets** (`title.ratings.tsv`, `title.crew.tsv`, etc.) to quickly fill thousands of entries offline—fast, scalable, and reliable for well-known titles.  
   - **Then**, used the **OMDb API** to look up remaining unmatched titles (especially TV shows, recent releases, or non-English content) that weren’t covered in the static files—adding hundreds more filled records.  
-- ✅ **Never overwrote existing data**: original columns like `cast`, `country`, and `description` were left completely untouched.  
-- ✅ **Only filled truly empty values**: cells that were `NaN`, `None`, or blank (`""`) were updated—valid existing data was always preserved.  
-- ✅ **Built a resumable, safe pipeline**: progress is saved periodically, so the script can be stopped and restarted without repeating work or losing data.  
-- ✅ **Clear real-time feedback**: the script logs every match, skip, error, and API limit warning—making debugging and monitoring easy.  
+- **Never overwrote existing data**: original columns like `cast`, `country`, and `description` were left completely untouched.  
+- **Only filled truly empty values**: cells that were `NaN`, `None`, or blank (`""`) were updated—valid existing data was always preserved.  
+- **Built a resumable, safe pipeline**: progress is saved periodically, so the script can be stopped and restarted without repeating work or losing data.  
+- **Clear real-time feedback**: the script logs every match, skip, error, and API limit warning—making debugging and monitoring easy.  
 
-> ❌ **Limitation**: The `country` field could **not be enriched**, as it is **not included** in either IMDb’s public static datasets or the free tier of the OMDb API.
+> **Limitation**: The `country` field could **not be enriched**, as it is **not included** in either IMDb’s public static datasets or the free tier of the OMDb API.
 
 ---
 
-## 📈 Results After Full Enrichment
+## Results After Full Enrichment
 
 | Column | Nulls Before | Nulls After | Filled |
 |-------|--------------|-------------|--------|
@@ -67,7 +67,7 @@ To maximize coverage while balancing speed and reliability, I used a **two-phase
 
 ---
 
-## 🧑‍💻 Technical Implementation
+## Technical Implementation
 
 - **Primary**: Python (Pandas)
 - **Data Sources**:
@@ -82,7 +82,7 @@ To maximize coverage while balancing speed and reliability, I used a **two-phase
 
 ---
 
-## 🚀 How to Reproduce
+## How to Reproduce
 
 1. Download IMDb TSV files → `imdb_datasets/`
 2. Get free OMDb API key → [https://www.omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx)
@@ -93,7 +93,7 @@ To maximize coverage while balancing speed and reliability, I used a **two-phase
 
 ---
 
-## 📄 License & Ethics
+## License & Ethics
 
 - Netflix dataset: [Kaggle License](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 - IMDb datasets: **Non-commercial use only**
