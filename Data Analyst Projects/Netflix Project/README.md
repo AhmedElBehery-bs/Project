@@ -1,6 +1,8 @@
 # Netflix Content & Viewer Insights Dashboard – Power BI
 
-![Netflix Logo](assets/logo/netflix-logo.png)
+<div align="center">
+  <img src="assets/logo/netflix-logo.png" alt="Netflix Logo" width="400"/>
+</div>
 
 An engaging, interactive Power BI dashboard analyzing Netflix movies and TV shows, enriched with IMDb ratings and enriched director data. It combines content catalog insights with simulated viewer behavior to reveal viewing patterns, content quality, and audience preferences.
 
