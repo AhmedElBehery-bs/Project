@@ -43,10 +43,6 @@ For more Detail about the python codes check the README.md file provided on the 
 ### Page 2 – Viewer Behavior Insights
 ![Page 2 - Viewer Behavior Insights](screenshots/page-2-viewer-insights.png)
 
-## Quick Access (No Download Needed)
-🔗 **Interactive online version**: [Click here to view the dashboard in your browser](https://app.powerbi.com/your-share-link-here)
-*(No Power BI installation required – fully interactive)*
-
 ## How to View the Dashboard Locally
 
 1. Download and install **Power BI Desktop** (free) from Microsoft:
