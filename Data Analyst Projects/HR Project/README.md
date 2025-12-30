@@ -1,7 +1,7 @@
 # HR Analytics Dashboard – Power BI
 
 <div align="center">
-  <img src="assets/logo/hr-logo.png" alt="HR Analytics Logo" width="480"/>
+  <img src="assets/logo/hr-logo.png" alt="HR Analytics Logo" width="400"/>
 </div>
 
 Interactive HR Analytics dashboard built from scratch using Power BI, MySQL, and Python. Tracks headcount trends, turnover, salary growth, diversity, and key workforce metrics over 6 years (2020–2025).
