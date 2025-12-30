@@ -93,6 +93,21 @@ To maximize coverage while balancing speed and reliability, I used a **two-phase
 
 ---
 
+## Note on Code Format
+
+The data enrichment and viewer data generation were developed in **Jupyter Notebook** (.ipynb) format for better interactivity and documentation:
+- Allows inline comments, markdown explanations, and immediate output visualization
+- Step-by-step process is fully visible (great for reviewers to follow the logic)
+- Can be run in VS Code, Jupyter Lab, Google Colab, or any notebook environment
+
+To run the notebook:
+1. Install Jupyter (via pip or Anaconda) or open directly in VS Code/Google Colab
+2. No additional setup needed beyond standard libraries (Pandas, requests, etc.)
+
+The .ipynb format was chosen to make the data preparation process transparent and educational.
+
+---
+
 ## License & Ethics
 
 - Netflix dataset: [Kaggle License](https://www.kaggle.com/datasets/shivamb/netflix-shows)

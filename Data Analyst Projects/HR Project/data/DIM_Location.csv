@@ -1,0 +1,5 @@
+LocationID,City,Country,OfficeType,Latitude,Longitude
+1,Cairo,Egypt,HQ,30.0444,31.2357
+2,Alexandria,Egypt,Branch,31.2001,29.9187
+3,Giza,Egypt,Branch,30.0131,31.2089
+4,Remote,Egypt,Remote,0.0,0.0
