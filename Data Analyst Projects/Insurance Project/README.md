@@ -1,7 +1,7 @@
 # Insurance Company Performance Dashboard – Power BI
 
 <div align="center">
-  <img src="/assets/logo/logo.png" alt="Insurance Dashboard Preview" width="400"/>
+  <img src="assets/logo/logo.png" alt="Insurance Dashboard Preview" width="400"/>
   <p><i>Interactive Power BI dashboard analyzing premium revenue, claims, loss ratio, agent performance, and customer churn risk</i></p>
 </div>
 
@@ -84,7 +84,7 @@ This project was built 100% from scratch by me – including the full relational
 - Advanced Power BI (relationships, time intelligence, dynamic measures, visual design)
 - Business storytelling through data
 
-Feedback welcome! Feel free to reach out if you'd like to discuss the project or see a live demo.
+Feedback welcome! Feel free to reach out if you'd like to discuss the project
 
 ---
 *Synthetic data generated for educational/portfolio purposes. All customer/agent names and details are fictional.*
